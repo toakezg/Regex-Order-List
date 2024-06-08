@@ -1,0 +1,12 @@
+{
+	"id": "regex-order-plugin",
+	"name": "Regex Order List",
+	"version": "0.1.0",
+	"minAppVersion": "1.0.0",
+	"description": "A plugin to order lists based on regex patterns.",
+	"author": "toakezg",
+	"authorUrl": "https://www.facebook.com/nath.polgar/",
+	"fundingUrl": "https://buymeacoffee.com/toakezg",
+	"isDesktopOnly": false
+  }
+  
