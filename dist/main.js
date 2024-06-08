@@ -25,6 +25,7 @@ var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   mySetting: "default",
   customRegex: "(\\d+\\s*)+$",
+  // Default regex pattern
   savedRegexPatterns: [
     { name: "Digi-num", regex: "(\\d+-\\d+-\\d+)$", description: "Numbers and Hyphens - Matches multiple numbers separated by hyphens at the end of the line, useful for dates or version numbers." },
     { name: "Tag Tur Turkey", regex: "([a-zA-Z0-9]+)$", description: "Alphanumeric Sorting - Matches any alphanumeric string at the end of the line. Useful for general sorting of items ending in alphanumeric characters." }
