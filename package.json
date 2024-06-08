@@ -1,0 +1,24 @@
+{
+    "name": "obsidian-regex-order-list",
+    "version": "1.0.1",
+    "description": "A plugin for Obsidian that sorts lists using custom regex patterns.",
+    "main": "dist/main.js",
+    "scripts": {
+      "build": "esbuild main.ts --bundle --outdir=dist --platform=node --target=node14 --external:obsidian",
+      "watch": "esbuild main.ts --bundle --outdir=dist --platform=node --target=node14 --watch --external:obsidian"
+    },
+    "keywords": [
+      "obsidian",
+      "plugin",
+      "regex",
+      "sort",
+      "list"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "esbuild": "^0.12.15",
+      "typescript": "^4.3.5"
+    }
+  }
+  
